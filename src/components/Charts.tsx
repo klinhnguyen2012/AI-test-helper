@@ -1,0 +1,6 @@
+import {Area,AreaChart,Bar,BarChart,CartesianGrid,Cell,ResponsiveContainer,Tooltip,XAxis,YAxis} from 'recharts';
+type Item={name:string;score?:number;value?:number;fill?:string};
+export default function Charts({kind,data}:{kind:'progress'|'results';data:Item[]}){
+ if(kind==='results')return <ResponsiveContainer width="100%" height="100%"><BarChart data={data} layout="vertical" margin={{left:5,right:20}}><XAxis type="number" hide/><YAxis type="category" dataKey="name" axisLine={false} tickLine={false}/><Tooltip/><Bar dataKey="value" radius={[0,5,5,0]} barSize={23}>{data.map((entry,index)=><Cell key={`${entry.name}-${index}`} fill={entry.fill??'#5c83df'}/>)}</Bar></BarChart></ResponsiveContainer>;
+ return <ResponsiveContainer width="100%" height="100%"><AreaChart data={data}><defs><linearGradient id="score" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stopColor="#3D72EF" stopOpacity={.18}/><stop offset="95%" stopColor="#3D72EF" stopOpacity={0}/></linearGradient></defs><CartesianGrid vertical={false} stroke="#edf0f5"/><XAxis dataKey="name" axisLine={false} tickLine={false}/><YAxis domain={[0,100]} axisLine={false} tickLine={false}/><Tooltip/><Area type="monotone" dataKey="score" stroke="#3972eb" strokeWidth={2.5} fill="url(#score)"/></AreaChart></ResponsiveContainer>;
+}

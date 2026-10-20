@@ -1,0 +1,2402 @@
+{
+  "A002": {
+    "topic": "Độc lập",
+    "question": "Hai đồng xu công bằng được tung lên. Các sự kiện “thứ nhất là H” và “thứ hai là H” có độc lập không?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Có"
+      },
+      {
+        "id": "B",
+        "text": "Đổi độ nhạy thành tỷ lệ dương tính giả"
+      },
+      {
+        "id": "C",
+        "text": "Đảo thứ tự hàng và cột trong shape"
+      },
+      {
+        "id": "D",
+        "text": "Chỉ nhân các phần tử cùng vị trí"
+      }
+    ],
+    "correctAnswers": [
+      "Có"
+    ]
+  },
+  "A007": {
+    "topic": "Với sự thay thế",
+    "question": "Một túi có 3 bi xanh và 2 bi vàng. Một màu xanh lá cây được rút ra và thay thế. Cơ hội rút thăm tiếp theo là màu xanh lá cây?",
+    "explanation": "Thay thế khôi phục lại thành phần ban đầu.",
+    "solutionSteps": [
+      "Thay thế khôi phục lại thành phần ban đầu."
+    ]
+  },
+  "A008": {
+    "topic": "Giá trị dự kiến",
+    "question": "Một trò chơi trả 10 USD với xác suất là 0,2 và 0 USD nếu ngược lại. Khoản thanh toán dự kiến ​​của nó là bao nhiêu?"
+  },
+  "A001": {
+    "topic": "Không gian mẫu",
+    "question": "Một con súc sắc sáu mặt công bằng được tung ra. P (chẵn) là gì?",
+    "explanation": "Ba trong số sáu kết quả là chẵn.",
+    "solutionSteps": [
+      "Ba trong số sáu kết quả là chẵn."
+    ]
+  },
+  "A003": {
+    "topic": "Loại trừ lẫn nhau",
+    "question": "Đối với một lần đổ súc sắc, liệu “tung số 2” và “tung số chẵn” có thể xảy ra không?",
+    "explanation": "Cán 2 thỏa mãn cả hai; các sự kiện chồng chéo lên nhau.",
+    "solutionSteps": [
+      "Cán 2 thỏa mãn cả hai; các sự kiện chồng chéo lên nhau."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Có"
+      },
+      {
+        "id": "B",
+        "text": "Dùng trace thay cho determinant"
+      },
+      {
+        "id": "C",
+        "text": "Cho rằng ma trận định thức 0 vẫn có nghịch đảo"
+      },
+      {
+        "id": "D",
+        "text": "Cộng xác suất thay vì nhân cho biến cố đồng thời"
+      }
+    ],
+    "correctAnswers": [
+      "Có"
+    ]
+  },
+  "A004": {
+    "topic": "Bổ sung",
+    "question": "Yêu cầu máy chủ không thành công với xác suất 0,07. Xác suất thành công là gì?",
+    "explanation": "Xác suất bổ sung là 1 - 0,07.",
+    "solutionSteps": [
+      "Xác suất bổ sung là 1 - 0,07."
+    ]
+  },
+  "A005": {
+    "topic": "Quy tắc cộng",
+    "question": "Nếu P(A)=0,4, P(B)=0,5 và P(A∩B)=0,2, hãy tìm P(A∪B).",
+    "explanation": "Sử dụng P(A)+P(B)−P(A∩B).",
+    "solutionSteps": [
+      "Sử dụng P(A)+P(B)−P(A∩B)."
+    ]
+  },
+  "A006": {
+    "topic": "Xác suất có điều kiện",
+    "question": "Trong số 12 thẻ đỏ và 8 thẻ xanh, có một thẻ đỏ được rút ra không thay thế. Khả năng lá bài tiếp theo là màu đỏ là bao nhiêu?",
+    "explanation": "Sau khi rút đỏ, trong số 19 lá bài còn lại 11 lá đỏ.",
+    "solutionSteps": [
+      "Sau khi rút đỏ, trong số 19 lá bài còn lại 11 lá đỏ."
+    ]
+  },
+  "A010": {
+    "topic": "Tổng xác suất",
+    "question": "Tỷ lệ mắc bệnh 0,1; tỷ lệ xét nghiệm dương tính là 0,8 đối với người bệnh và 0,05 đối với người khỏe mạnh. P (dương tính)?"
+  },
+  "A011": {
+    "topic": "Bayes",
+    "question": "Tỷ lệ hiện mắc .1, độ nhạy .8, tỷ lệ dương tính giả .2. P(bệnh | dương tính)?",
+    "explanation": "Bayes cho 0,08/(.08+.18)=.3077.",
+    "solutionSteps": [
+      "Bayes cho 0,08/(.08+.18)=.3077."
+    ]
+  },
+  "A013": {
+    "topic": "Kiểm tra lặp đi lặp lại",
+    "question": "Hai bài kiểm tra độc lập đều có độ nhạy 0,9. Nếu một người mắc bệnh thì có khả năng cả hai đều phát hiện ra?"
+  },
+  "A012": {
+    "topic": "Tần số Bayes",
+    "question": "Trong 1.000 người, 10% mắc bệnh; độ nhạy 90%, dương tính giả 10%. Trong số các thử nghiệm tích cực, có bao nhiêu thực sự có nó?",
+    "explanation": "90 kết quả dương tính thật và 90 kết quả dương tính giả mang lại kết quả 90/180.",
+    "solutionSteps": [
+      "90 kết quả dương tính thật và 90 kết quả dương tính giả mang lại kết quả 90/180."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Khoảng 50%"
+      },
+      {
+        "id": "B",
+        "text": "Đổi độ nhạy thành tỷ lệ dương tính giả"
+      },
+      {
+        "id": "C",
+        "text": "Đảo thứ tự hàng và cột trong shape"
+      },
+      {
+        "id": "D",
+        "text": "Chỉ nhân các phần tử cùng vị trí"
+      }
+    ],
+    "correctAnswers": [
+      "Khoảng 50%"
+    ]
+  },
+  "A009": {
+    "topic": "Bernoulli",
+    "question": "Điều kiện nào mô tả một biến ngẫu nhiên Bernoulli?",
+    "explanation": "Biến Bernoulli ghi lại thành công/thất bại trong một lần thử.",
+    "solutionSteps": [
+      "Biến Bernoulli ghi lại thành công/thất bại trong một lần thử."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Một thử nghiệm với hai kết quả"
+      },
+      {
+        "id": "B",
+        "text": "Đảo thứ tự hàng và cột trong shape"
+      },
+      {
+        "id": "C",
+        "text": "Chỉ nhân các phần tử cùng vị trí"
+      },
+      {
+        "id": "D",
+        "text": "Dùng trace thay cho determinant"
+      }
+    ],
+    "correctAnswers": [
+      "Một thử nghiệm với hai kết quả"
+    ]
+  },
+  "A019": {
+    "topic": "yếu tố quyết định",
+    "question": "Tìm det([[3,1],[2,4]])."
+  },
+  "A017": {
+    "topic": "Sản phẩm chấm",
+    "question": "Tính [2,−1] · [3,4]."
+  },
+  "A016": {
+    "topic": "Sản phẩm ma trận",
+    "question": "A có hình dạng (3,2), B có hình dạng (2,4). A@B là hình gì?",
+    "explanation": "Kích thước bên trong phù hợp; kích thước bên ngoài xác định hình dạng kết quả.",
+    "solutionSteps": [
+      "Kích thước bên trong phù hợp; kích thước bên ngoài xác định hình dạng kết quả."
+    ]
+  },
+  "A015": {
+    "topic": "hình dạng vector",
+    "question": "Hình dạng của vectơ có 5 mục được biểu diễn dưới dạng mảng NumPy 1-D là gì?",
+    "explanation": "Mảng một chiều có một chiều trong bộ hình dạng của nó.",
+    "solutionSteps": [
+      "Mảng một chiều có một chiều trong bộ hình dạng của nó."
+    ]
+  },
+  "A014": {
+    "topic": "Lãi suất cơ bản",
+    "question": "Một tình trạng hiếm gặp có tỷ lệ lưu hành là 1/1000. Tại sao một xét nghiệm có độ chính xác cao vẫn có thể cho ra nhiều kết quả dương tính giả?",
+    "explanation": "Dân số khỏe mạnh đông đảo khiến cho ngay cả một tỷ lệ dương tính giả nhỏ cũng trở thành hậu quả.",
+    "solutionSteps": [
+      "Dân số khỏe mạnh đông đảo khiến cho ngay cả một tỷ lệ dương tính giả nhỏ cũng trở thành hậu quả."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Hầu hết những người được xét nghiệm đều khỏe mạnh"
+      },
+      {
+        "id": "B",
+        "text": "Lấy số trường hợp thuận lợi theo không gian mẫu chưa điều kiện"
+      },
+      {
+        "id": "C",
+        "text": "Cộng trực tiếp mà không trừ phần giao"
+      },
+      {
+        "id": "D",
+        "text": "Nhân xác suất dù hai kết quả có phụ thuộc nhau"
+      }
+    ],
+    "correctAnswers": [
+      "Hầu hết những người được xét nghiệm đều khỏe mạnh"
+    ]
+  },
+  "A021": {
+    "topic": "Danh tính",
+    "question": "Việc nhân một vectơ tương thích với ma trận nhận dạng có tác dụng gì?",
+    "explanation": "Danh tính là phần tử trung tính nhân lên.",
+    "solutionSteps": [
+      "Danh tính là phần tử trung tính nhân lên."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Để nó không thay đổi"
+      },
+      {
+        "id": "B",
+        "text": "Cộng trực tiếp mà không trừ phần giao"
+      },
+      {
+        "id": "C",
+        "text": "Nhân xác suất dù hai kết quả có phụ thuộc nhau"
+      },
+      {
+        "id": "D",
+        "text": "Dùng xác suất có điều kiện như xác suất ban đầu"
+      }
+    ],
+    "correctAnswers": [
+      "Để nó không thay đổi"
+    ]
+  },
+  "A018": {
+    "topic": "Chuyển đổi",
+    "question": "Ma trận (2,5) có hình dạng gì sau khi hoán vị?",
+    "explanation": "Hoán đổi hoán đổi hàng và cột.",
+    "solutionSteps": [
+      "Hoán đổi hoán đổi hàng và cột."
+    ]
+  },
+  "A020": {
+    "topic": "nghịch đảo",
+    "explanation": "Một ma trận số ít có định thức bằng 0.",
+    "solutionSteps": [
+      "Một ma trận số ít có định thức bằng 0."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Khi định thức của nó bằng 0"
+      },
+      {
+        "id": "B",
+        "text": "Cho rằng ma trận định thức 0 vẫn có nghịch đảo"
+      },
+      {
+        "id": "C",
+        "text": "Cộng xác suất thay vì nhân cho biến cố đồng thời"
+      },
+      {
+        "id": "D",
+        "text": "Lấy số trường hợp thuận lợi theo không gian mẫu chưa điều kiện"
+      }
+    ],
+    "correctAnswers": [
+      "Khi định thức của nó bằng 0"
+    ]
+  },
+  "A023": {
+    "topic": "Hệ thống tuyến tính",
+    "question": "Với A=[[1,0],[0,2]] và b=[3,8], giải Ax=b.",
+    "explanation": "Các phương trình là x₁=3 và 2x₂=8.",
+    "solutionSteps": [
+      "Các phương trình là x₁=3 và 2x₂=8."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "x=[3,4]"
+      },
+      {
+        "id": "B",
+        "text": "Dùng trace thay cho determinant"
+      },
+      {
+        "id": "C",
+        "text": "Cho rằng ma trận định thức 0 vẫn có nghịch đảo"
+      },
+      {
+        "id": "D",
+        "text": "Cộng xác suất thay vì nhân cho biến cố đồng thời"
+      }
+    ],
+    "correctAnswers": [
+      "x=[3,4]"
+    ]
+  },
+  "A022": {
+    "topic": "Xếp hạng",
+    "question": "Thứ hạng của [[1,2],[2,4]] là gì?",
+    "explanation": "Hàng thứ hai gấp đôi hàng đầu nên có một hàng độc lập.",
+    "solutionSteps": [
+      "Hàng thứ hai gấp đôi hàng đầu nên có một hàng độc lập."
+    ]
+  },
+  "A027": {
+    "topic": "Vịnh trong Python",
+    "question": "Giá trị nào được in ra, làm tròn đến 3 chữ số thập phân?",
+    "explanation": "Tử số là 0,08; mẫu số là 0,08 + 0,18.",
+    "solutionSteps": [
+      "Tử số là 0,08; mẫu số là 0,08 + 0,18."
+    ]
+  },
+  "A024": {
+    "topic": "Mã ma trận NumPy",
+    "question": "Cái này in cái gì?",
+    "explanation": "Mỗi ô đầu ra là một sản phẩm chấm theo từng hàng.",
+    "solutionSteps": [
+      "Mỗi ô đầu ra là một sản phẩm chấm theo từng hàng."
+    ]
+  },
+  "A028": {
+    "topic": "Ma trận số",
+    "question": "Nếu A=[[1,2],[0,1]] thì det(A) là gì?"
+  },
+  "A026": {
+    "topic": "Mã chuyển đổi NumPy",
+    "question": "Hình in là gì?",
+    "explanation": "T hoán đổi hai trục của mảng 2 x 3.",
+    "solutionSteps": [
+      "T hoán đổi hai trục của mảng 2 x 3."
+    ]
+  },
+  "A025": {
+    "topic": "Trục NumPy",
+    "question": "X.sum(axis=0) cho mảng được hiển thị là gì?",
+    "explanation": "axis=0 giảm các hàng và trả về một tổng trên mỗi cột.",
+    "solutionSteps": [
+      "axis=0 giảm các hàng và trả về một tổng trên mỗi cột."
+    ]
+  },
+  "A029": {
+    "topic": "kết hợp",
+    "question": "Một mẫu gồm 4 sản phẩm được chọn từ 10 sản phẩm riêng biệt không theo thứ tự. Có bao nhiêu mẫu?"
+  },
+  "A030": {
+    "topic": "Rút thăm có điều kiện",
+    "question": "Một hộp có 4 phần kém và 6 phần tốt. Cho một bộ phận được chọn bị lỗi, xác suất nó đến từ bộ bị lỗi?",
+    "explanation": "Điều kiện xác định thành viên trong tập hợp đó.",
+    "solutionSteps": [
+      "Điều kiện xác định thành viên trong tập hợp đó."
+    ]
+  },
+  "B001": {
+    "topic": "Phân chia tầng",
+    "question": "17 // 5 trong Python là gì?",
+    "explanation": "Phép chia sàn trả về thương được làm tròn xuống.",
+    "solutionSteps": [
+      "Phép chia sàn trả về thương được làm tròn xuống."
+    ]
+  },
+  "B004": {
+    "topic": "Bí danh",
+    "question": "Sau y=x; y.append(4), x là gì?",
+    "explanation": "Cả hai tên đều đề cập đến cùng một đối tượng danh sách.",
+    "solutionSteps": [
+      "Cả hai tên đều đề cập đến cùng một đối tượng danh sách."
+    ]
+  },
+  "B002": {
+    "topic": "Modulo",
+    "question": "17% 5 là bao nhiêu?",
+    "explanation": "Số dư sau khi chia 17 cho 5 là 2.",
+    "solutionSteps": [
+      "Số dư sau khi chia 17 cho 5 là 2."
+    ]
+  },
+  "B003": {
+    "topic": "Cắt lát",
+    "question": "[10,20,30,40][1:3] trả về cái gì?",
+    "explanation": "Chỉ mục bắt đầu được bao gồm và chỉ mục dừng bị loại trừ.",
+    "solutionSteps": [
+      "Chỉ mục bắt đầu được bao gồm và chỉ mục dừng bị loại trừ."
+    ]
+  },
+  "B005": {
+    "topic": "Sao chép",
+    "question": "Biểu thức nào tạo một bản sao danh sách nông của các mục?",
+    "explanation": "copy() tạo một danh sách bên ngoài riêng biệt.",
+    "solutionSteps": [
+      "copy() tạo một danh sách bên ngoài riêng biệt."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "mục.copy ()"
+      },
+      {
+        "id": "B",
+        "text": "Dùng stop index như vị trí được lấy"
+      },
+      {
+        "id": "C",
+        "text": "Nhầm // với phép chia thực"
+      },
+      {
+        "id": "D",
+        "text": "Sửa bản sao nhưng kỳ vọng alias cũng đổi"
+      }
+    ],
+    "correctAnswers": [
+      "mục.copy ()"
+    ]
+  },
+  "B008": {
+    "topic": "nghỉ giải lao",
+    "question": "Những gì được in?",
+    "explanation": "break thoát trên n==3.",
+    "solutionSteps": [
+      "break thoát trên n==3."
+    ]
+  },
+  "B006": {
+    "topic": "Danh sách hiểu",
+    "question": "[n*n for n in range(4) if n%2==0] tạo ra cái gì?",
+    "explanation": "Nó bình phương các giá trị chẵn 0 và 2.",
+    "solutionSteps": [
+      "Nó bình phương các giá trị chẵn 0 và 2."
+    ]
+  },
+  "B010": {
+    "topic": "Mục từ điển",
+    "question": "Danh sách({\"a\":1}.items()) chứa gì?",
+    "explanation": "items mang lại cặp khóa-giá trị.",
+    "solutionSteps": [
+      "items mang lại cặp khóa-giá trị."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "[(\"a\", 1)]"
+      },
+      {
+        "id": "B",
+        "text": "Gửi JSON body cho GET thay vì query params"
+      },
+      {
+        "id": "C",
+        "text": "Đặt bearer token trong URL"
+      },
+      {
+        "id": "D",
+        "text": "Coi 401 là thiếu quyền và 403 là chưa đăng nhập"
+      }
+    ],
+    "correctAnswers": [
+      "[(\"a\", 1)]"
+    ]
+  },
+  "B011": {
+    "topic": "Tách chuỗi",
+    "question": "\"a,b,c\".split(\",\") là gì?",
+    "explanation": "phân tách ở mỗi dấu phẩy.",
+    "solutionSteps": [
+      "phân tách ở mỗi dấu phẩy."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "[\"a\", \"b\", \"c\"]"
+      },
+      {
+        "id": "B",
+        "text": "Bỏ timeout vì đã gọi raise_for_status"
+      },
+      {
+        "id": "C",
+        "text": "Chọn loc theo vị trí thay vì nhãn"
+      },
+      {
+        "id": "D",
+        "text": "Đảo axis=0 và axis=1"
+      }
+    ],
+    "correctAnswers": [
+      "[\"a\", \"b\", \"c\"]"
+    ]
+  },
+  "B007": {
+    "topic": "Tiếp tục",
+    "question": "Có bao nhiêu giá trị được in bởi một vòng lặp trên phạm vi (5) tiếp tục khi n==2?",
+    "explanation": "Việc lặp lại cho 2 bị bỏ qua; bốn bản in còn lại.",
+    "solutionSteps": [
+      "Việc lặp lại cho 2 bị bỏ qua; bốn bản in còn lại."
+    ]
+  },
+  "B015": {
+    "topic": "Bộ dữ liệu",
+    "question": "Một phần tử của bộ dữ liệu Python có thể được gán lại không?",
+    "explanation": "Tuples là các thùng chứa bất biến.",
+    "solutionSteps": [
+      "Tuples là các thùng chứa bất biến."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Không"
+      },
+      {
+        "id": "B",
+        "text": "Bỏ timeout vì đã gọi raise_for_status"
+      },
+      {
+        "id": "C",
+        "text": "Chọn loc theo vị trí thay vì nhãn"
+      },
+      {
+        "id": "D",
+        "text": "Đảo axis=0 và axis=1"
+      }
+    ],
+    "correctAnswers": [
+      "Không"
+    ]
+  },
+  "B013": {
+    "topic": "GCD",
+    "question": "Sử dụng Euclid, gcd(48,18) là gì?",
+    "explanation": "48%18=12, 18%12=6, sau đó 12%6=0.",
+    "solutionSteps": [
+      "48%18=12, 18%12=6, sau đó 12%6=0."
+    ]
+  },
+  "B009": {
+    "topic": "Từ điển lấy",
+    "question": "d.get(\"x\", 9) trả về cái gì nếu x vắng mặt?",
+    "explanation": "get trả về giá trị mặc định được cung cấp mà không tăng KeyError.",
+    "solutionSteps": [
+      "get trả về giá trị mặc định được cung cấp mà không tăng KeyError."
+    ]
+  },
+  "B016": {
+    "topic": "Đặt",
+    "question": "Len({1,1,2}) là gì?",
+    "explanation": "Một bộ chỉ lưu trữ các giá trị duy nhất.",
+    "solutionSteps": [
+      "Một bộ chỉ lưu trữ các giá trị duy nhất."
+    ]
+  },
+  "B017": {
+    "topic": "Vòng lặp lồng nhau",
+    "question": "Phần bên trong chạy bao nhiêu lần trong phạm vi (3) được lồng trong phạm vi (2)?"
+  },
+  "B012": {
+    "topic": "Chữ thường",
+    "question": "\"AI Lab\".low() trả về cái gì?",
+    "explanation": "low chuyển đổi các ký tự chữ cái thành chữ thường.",
+    "solutionSteps": [
+      "low chuyển đổi các ký tự chữ cái thành chữ thường."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "phòng thí nghiệm ai"
+      },
+      {
+        "id": "B",
+        "text": "Kỳ vọng fillna mặc định sửa frame tại chỗ"
+      },
+      {
+        "id": "C",
+        "text": "Dùng outer join khi chỉ cần khóa chung"
+      },
+      {
+        "id": "D",
+        "text": "Nghĩ argmax trả giá trị lớn nhất thay vì vị trí"
+      }
+    ],
+    "correctAnswers": [
+      "phòng thí nghiệm ai"
+    ]
+  },
+  "B014": {
+    "topic": "Big-O",
+    "question": "Một vòng lặp sẽ truy cập mọi phần tử của danh sách n mục một lần. Độ phức tạp của thời gian?",
+    "explanation": "Công việc phát triển tuyến tính với độ dài đầu vào.",
+    "solutionSteps": [
+      "Công việc phát triển tuyến tính với độ dài đầu vào."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "O(n)"
+      },
+      {
+        "id": "B",
+        "text": "Gửi JSON body cho GET thay vì query params"
+      },
+      {
+        "id": "C",
+        "text": "Đặt bearer token trong URL"
+      },
+      {
+        "id": "D",
+        "text": "Coi 401 là thiếu quyền và 403 là chưa đăng nhập"
+      }
+    ],
+    "correctAnswers": [
+      "O(n)"
+    ]
+  },
+  "B018": {
+    "topic": "Yêu cầu NHẬN",
+    "question": "Các bộ lọc cho yêu cầu GET thường được gửi ở đâu cùng với yêu cầu?",
+    "explanation": "Tham số truy vấn thuộc params= cho request.get.",
+    "solutionSteps": [
+      "Tham số truy vấn thuộc params= cho request.get."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Đối số params"
+      },
+      {
+        "id": "B",
+        "text": "Gửi JSON body cho GET thay vì query params"
+      },
+      {
+        "id": "C",
+        "text": "Đặt bearer token trong URL"
+      },
+      {
+        "id": "D",
+        "text": "Coi 401 là thiếu quyền và 403 là chưa đăng nhập"
+      }
+    ],
+    "correctAnswers": [
+      "Đối số params"
+    ]
+  },
+  "B020": {
+    "topic": "HTTP 201",
+    "question": "Trạng thái 201 thường biểu thị điều gì?",
+    "explanation": "201 là trạng thái Đã tạo thành công.",
+    "solutionSteps": [
+      "201 là trạng thái Đã tạo thành công."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Một tài nguyên đã được tạo"
+      },
+      {
+        "id": "B",
+        "text": "Kỳ vọng fillna mặc định sửa frame tại chỗ"
+      },
+      {
+        "id": "C",
+        "text": "Dùng outer join khi chỉ cần khóa chung"
+      },
+      {
+        "id": "D",
+        "text": "Nghĩ argmax trả giá trị lớn nhất thay vì vị trí"
+      }
+    ],
+    "correctAnswers": [
+      "Một tài nguyên đã được tạo"
+    ]
+  },
+  "B021": {
+    "topic": "HTTP 401",
+    "question": "Yêu cầu thiếu thông tin xác thực hợp lệ. Trạng thái nào là phù hợp?",
+    "explanation": "401 cho biết người gọi phải xác thực.",
+    "solutionSteps": [
+      "401 cho biết người gọi phải xác thực."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "401 trái phép"
+      },
+      {
+        "id": "B",
+        "text": "Dùng stop index như vị trí được lấy"
+      },
+      {
+        "id": "C",
+        "text": "Nhầm // với phép chia thực"
+      },
+      {
+        "id": "D",
+        "text": "Sửa bản sao nhưng kỳ vọng alias cũng đổi"
+      }
+    ],
+    "correctAnswers": [
+      "401 trái phép"
+    ]
+  },
+  "B023": {
+    "topic": "HTTP 429",
+    "question": "HTTP 429 giao tiếp gì?",
+    "explanation": "Nó báo hiệu giới hạn tốc độ.",
+    "solutionSteps": [
+      "Nó báo hiệu giới hạn tốc độ."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Quá nhiều yêu cầu"
+      },
+      {
+        "id": "B",
+        "text": "Bỏ timeout vì đã gọi raise_for_status"
+      },
+      {
+        "id": "C",
+        "text": "Chọn loc theo vị trí thay vì nhãn"
+      },
+      {
+        "id": "D",
+        "text": "Đảo axis=0 và axis=1"
+      }
+    ],
+    "correctAnswers": [
+      "Quá nhiều yêu cầu"
+    ]
+  },
+  "B027": {
+    "topic": "Bí mật môi trường",
+    "question": "Bí mật API đã triển khai nên được đọc từ đâu?",
+    "explanation": "Tránh cam kết thông tin xác thực để kiểm soát nguồn.",
+    "solutionSteps": [
+      "Tránh cam kết thông tin xác thực để kiểm soát nguồn."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Một biến môi trường hoặc kho bí mật"
+      },
+      {
+        "id": "B",
+        "text": "Bỏ timeout vì đã gọi raise_for_status"
+      },
+      {
+        "id": "C",
+        "text": "Chọn loc theo vị trí thay vì nhãn"
+      },
+      {
+        "id": "D",
+        "text": "Đảo axis=0 và axis=1"
+      }
+    ],
+    "correctAnswers": [
+      "Một biến môi trường hoặc kho bí mật"
+    ]
+  },
+  "B019": {
+    "topic": "ĐĂNG JSON",
+    "question": "Đối số yêu cầu nào tuần tự hóa một đối tượng Python dưới dạng nội dung JSON?",
+    "explanation": "request.post(..., json=data) mã hóa JSON và đặt loại nội dung của nó.",
+    "solutionSteps": [
+      "request.post(..., json=data) mã hóa JSON và đặt loại nội dung của nó."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "json="
+      },
+      {
+        "id": "B",
+        "text": "Bỏ timeout vì đã gọi raise_for_status"
+      },
+      {
+        "id": "C",
+        "text": "Chọn loc theo vị trí thay vì nhãn"
+      },
+      {
+        "id": "D",
+        "text": "Đảo axis=0 và axis=1"
+      }
+    ],
+    "correctAnswers": [
+      "json="
+    ]
+  },
+  "B026": {
+    "topic": "Mã thông báo mang",
+    "question": "Mã thông báo mang thường được cung cấp ở đâu?",
+    "explanation": "Ủy quyền sử dụng: Người mang <mã thông báo>; giữ nó ra khỏi URL.",
+    "solutionSteps": [
+      "Ủy quyền sử dụng: Người mang <mã thông báo>; giữ nó ra khỏi URL."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Tiêu đề ủy quyền"
+      },
+      {
+        "id": "B",
+        "text": "Gửi JSON body cho GET thay vì query params"
+      },
+      {
+        "id": "C",
+        "text": "Đặt bearer token trong URL"
+      },
+      {
+        "id": "D",
+        "text": "Coi 401 là thiếu quyền và 403 là chưa đăng nhập"
+      }
+    ],
+    "correctAnswers": [
+      "Tiêu đề ủy quyền"
+    ]
+  },
+  "B024": {
+    "topic": "Hết giờ",
+    "question": "Tại sao đặt thời gian chờ = trên yêu cầu HTTP?",
+    "explanation": "Thời gian chờ sẽ ngăn yêu cầu treo vô thời hạn.",
+    "solutionSteps": [
+      "Thời gian chờ sẽ ngăn yêu cầu treo vô thời hạn."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Để giới hạn thời gian khách hàng chờ đợi"
+      },
+      {
+        "id": "B",
+        "text": "Kỳ vọng fillna mặc định sửa frame tại chỗ"
+      },
+      {
+        "id": "C",
+        "text": "Dùng outer join khi chỉ cần khóa chung"
+      },
+      {
+        "id": "D",
+        "text": "Nghĩ argmax trả giá trị lớn nhất thay vì vị trí"
+      }
+    ],
+    "correctAnswers": [
+      "Để giới hạn thời gian khách hàng chờ đợi"
+    ]
+  },
+  "B030": {
+    "topic": "Hình dạng NumPy",
+    "question": "np.array([[1,2],[3,4],[5,6]]).shape là gì?",
+    "explanation": "Có ba hàng và hai cột.",
+    "solutionSteps": [
+      "Có ba hàng và hai cột."
+    ]
+  },
+  "B031": {
+    "topic": "Định hình lại NumPy",
+    "question": "Có thể arange(12).reshape(3,4) thành công không?",
+    "explanation": "Cả nguồn và đích đều chứa 12 phần tử.",
+    "solutionSteps": [
+      "Cả nguồn và đích đều chứa 12 phần tử."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Có"
+      },
+      {
+        "id": "B",
+        "text": "Bỏ timeout vì đã gọi raise_for_status"
+      },
+      {
+        "id": "C",
+        "text": "Chọn loc theo vị trí thay vì nhãn"
+      },
+      {
+        "id": "D",
+        "text": "Đảo axis=0 và axis=1"
+      }
+    ],
+    "correctAnswers": [
+      "Có"
+    ]
+  },
+  "B022": {
+    "topic": "HTTP 403",
+    "question": "Người dùng đăng nhập thiếu quyền. Trạng thái nào là phù hợp?",
+    "explanation": "Máy chủ hiểu yêu cầu nhưng từ chối ủy quyền.",
+    "solutionSteps": [
+      "Máy chủ hiểu yêu cầu nhưng từ chối ủy quyền."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "403 bị cấm"
+      },
+      {
+        "id": "B",
+        "text": "Gửi JSON body cho GET thay vì query params"
+      },
+      {
+        "id": "C",
+        "text": "Đặt bearer token trong URL"
+      },
+      {
+        "id": "D",
+        "text": "Coi 401 là thiếu quyền và 403 là chưa đăng nhập"
+      }
+    ],
+    "correctAnswers": [
+      "403 bị cấm"
+    ]
+  },
+  "B028": {
+    "topic": "Theo dõi mã HTTP",
+    "question": "Rủi ro trong mã này là gì?",
+    "explanation": "Trạng thái thành công không chứng minh rằng JSON khớp với lược đồ dự kiến.",
+    "solutionSteps": [
+      "Trạng thái thành công không chứng minh rằng JSON khớp với lược đồ dự kiến."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Nó in một phản hồi không đáng tin cậy mà không cần xác nhận"
+      },
+      {
+        "id": "B",
+        "text": "Kỳ vọng fillna mặc định sửa frame tại chỗ"
+      },
+      {
+        "id": "C",
+        "text": "Dùng outer join khi chỉ cần khóa chung"
+      },
+      {
+        "id": "D",
+        "text": "Nghĩ argmax trả giá trị lớn nhất thay vì vị trí"
+      }
+    ],
+    "correctAnswers": [
+      "Nó in một phản hồi không đáng tin cậy mà không cần xác nhận"
+    ]
+  },
+  "B032": {
+    "topic": "Mặt nạ Boolean",
+    "question": "Những giá trị nào tồn tại x[x>3] cho x=[1,4,2,5]?",
+    "explanation": "Mặt nạ boolean chỉ giữ các mục lớn hơn 3.",
+    "solutionSteps": [
+      "Mặt nạ boolean chỉ giữ các mục lớn hơn 3."
+    ]
+  },
+  "B029": {
+    "topic": "Xử lý trạng thái",
+    "question": "Câu nào đúng về 200 và 201?",
+    "explanation": "Cả hai đều là trạng thái thành công, với ngữ nghĩa khác nhau.",
+    "solutionSteps": [
+      "Cả hai đều là trạng thái thành công, với ngữ nghĩa khác nhau."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "200 là thành công; 201 có nghĩa là đã tạo"
+      },
+      {
+        "id": "B",
+        "text": "Dùng stop index như vị trí được lấy"
+      },
+      {
+        "id": "C",
+        "text": "Nhầm // với phép chia thực"
+      },
+      {
+        "id": "D",
+        "text": "Sửa bản sao nhưng kỳ vọng alias cũng đổi"
+      }
+    ],
+    "correctAnswers": [
+      "200 là thành công; 201 có nghĩa là đã tạo"
+    ]
+  },
+  "B033": {
+    "topic": "Phát sóng",
+    "question": "Hình (3,1) và (1,4) phát tới hình nào?",
+    "explanation": "Kích thước Singleton mở rộng tương thích.",
+    "solutionSteps": [
+      "Kích thước Singleton mở rộng tương thích."
+    ]
+  },
+  "B025": {
+    "topic": "nâng_for_status",
+    "question": "Phản hồi.raise_for_status() làm gì cho 404?",
+    "explanation": "Nó tăng lên cho các mã trạng thái HTTP không thành công.",
+    "solutionSteps": [
+      "Nó tăng lên cho các mã trạng thái HTTP không thành công."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Tăng HTTPError"
+      },
+      {
+        "id": "B",
+        "text": "Dùng stop index như vị trí được lấy"
+      },
+      {
+        "id": "C",
+        "text": "Nhầm // với phép chia thực"
+      },
+      {
+        "id": "D",
+        "text": "Sửa bản sao nhưng kỳ vọng alias cũng đổi"
+      }
+    ],
+    "correctAnswers": [
+      "Tăng HTTPError"
+    ]
+  },
+  "B035": {
+    "topic": "Argmax",
+    "question": "np.argmax([2,9,4]) trả về cái gì?",
+    "explanation": "Nó trả về chỉ số của giá trị tối đa.",
+    "solutionSteps": [
+      "Nó trả về chỉ số của giá trị tối đa."
+    ]
+  },
+  "B036": {
+    "topic": "Danh sách mảng",
+    "question": "np.array([1,2]).tolist() trả về cái gì?",
+    "explanation": "tolist chuyển đổi mảng thành danh sách Python lồng nhau.",
+    "solutionSteps": [
+      "tolist chuyển đổi mảng thành danh sách Python lồng nhau."
+    ]
+  },
+  "B034": {
+    "topic": "Tổng trục",
+    "explanation": "Việc giảm các cột để lại một tổng cho mỗi hàng.",
+    "solutionSteps": [
+      "Việc giảm các cột để lại một tổng cho mỗi hàng."
+    ]
+  },
+  "B037": {
+    "topic": "Lựa chọn gấu trúc",
+    "question": "df[\"score\"] cho DataFrame là gì?",
+    "explanation": "Việc chọn một cột theo tên sẽ trả về một Sê-ri.",
+    "solutionSteps": [
+      "Việc chọn một cột theo tên sẽ trả về một Sê-ri."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Cột dãy A"
+      },
+      {
+        "id": "B",
+        "text": "Dùng stop index như vị trí được lấy"
+      },
+      {
+        "id": "C",
+        "text": "Nhầm // với phép chia thực"
+      },
+      {
+        "id": "D",
+        "text": "Sửa bản sao nhưng kỳ vọng alias cũng đổi"
+      }
+    ],
+    "correctAnswers": [
+      "Cột dãy A"
+    ]
+  },
+  "B039": {
+    "topic": "loc vs iloc",
+    "question": "Trình truy cập nào chọn theo vị trí số nguyên?",
+    "explanation": "iloc là vị trí; loc sử dụng nhãn chỉ mục.",
+    "solutionSteps": [
+      "iloc là vị trí; loc sử dụng nhãn chỉ mục."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "iloc"
+      },
+      {
+        "id": "B",
+        "text": "Bỏ timeout vì đã gọi raise_for_status"
+      },
+      {
+        "id": "C",
+        "text": "Chọn loc theo vị trí thay vì nhãn"
+      },
+      {
+        "id": "D",
+        "text": "Đảo axis=0 và axis=1"
+      }
+    ],
+    "correctAnswers": [
+      "iloc"
+    ]
+  },
+  "C002": {
+    "topic": "Phân loại",
+    "question": "Dự đoán giá bán nhà là nhiệm vụ gì?",
+    "explanation": "Mục tiêu là liên tục.",
+    "solutionSteps": [
+      "Mục tiêu là liên tục."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Hồi quy"
+      },
+      {
+        "id": "B",
+        "text": "Tăng threshold luôn làm số dự đoán dương tăng"
+      },
+      {
+        "id": "C",
+        "text": "Gradient descent đi cùng chiều gradient"
+      },
+      {
+        "id": "D",
+        "text": "Dùng test set để chọn hyperparameter"
+      }
+    ],
+    "correctAnswers": [
+      "Hồi quy"
+    ]
+  },
+  "B040": {
+    "topic": "Lọc gấu trúc",
+    "question": "Còn lại bao nhiêu hàng có điểm >= 70 cho điểm [60,70,85]?",
+    "explanation": "Các hàng có giá trị 70 và 85 thỏa mãn điều kiện.",
+    "solutionSteps": [
+      "Các hàng có giá trị 70 và 85 thỏa mãn điều kiện."
+    ]
+  },
+  "C003": {
+    "topic": "Không được giám sát",
+    "question": "Phân nhóm khách hàng không theo danh mục được cung cấp là gì?",
+    "explanation": "Phân cụm phát hiện các nhóm không có mục tiêu được gắn nhãn.",
+    "solutionSteps": [
+      "Phân cụm phát hiện các nhóm không có mục tiêu được gắn nhãn."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Phân cụm"
+      },
+      {
+        "id": "B",
+        "text": "Validation score cao chứng minh không có leakage"
+      },
+      {
+        "id": "C",
+        "text": "K-means cần nhãn mục tiêu"
+      },
+      {
+        "id": "D",
+        "text": "F1 là trung bình cộng của precision và recall"
+      }
+    ],
+    "correctAnswers": [
+      "Phân cụm"
+    ]
+  },
+  "B038": {
+    "topic": "Hình dạng khung dữ liệu",
+    "question": "Một khung có 8 hàng và 3 cột. df.shape là gì?",
+    "explanation": "danh sách hình dạng đếm hàng rồi đếm cột.",
+    "solutionSteps": [
+      "danh sách hình dạng đếm hàng rồi đếm cột."
+    ]
+  },
+  "C005": {
+    "topic": "Trang bị quá mức",
+    "question": "Một mô hình đạt điểm cao trên tàu và thấp về mặt xác nhận. Vấn đề có thể xảy ra?",
+    "explanation": "Mô hình ghi nhớ các mẫu đào tạo không khái quát hóa.",
+    "solutionSteps": [
+      "Mô hình ghi nhớ các mẫu đào tạo không khái quát hóa."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Trang bị quá mức"
+      },
+      {
+        "id": "B",
+        "text": "Precision dùng FN ở mẫu số"
+      },
+      {
+        "id": "C",
+        "text": "Recall dùng FP ở mẫu số"
+      },
+      {
+        "id": "D",
+        "text": "Accuracy luôn phản ánh tốt lớp thiểu số"
+      }
+    ],
+    "correctAnswers": [
+      "Trang bị quá mức"
+    ]
+  },
+  "C004": {
+    "topic": "Rò rỉ dữ liệu",
+    "question": "Tại sao việc điều chỉnh bộ chia tỷ lệ trên tập dữ liệu đầy đủ trước khi phân tách lại có rủi ro?",
+    "explanation": "Các tham số tiền xử lý chỉ được học trên dữ liệu huấn luyện.",
+    "solutionSteps": [
+      "Các tham số tiền xử lý chỉ được học trên dữ liệu huấn luyện."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Thông tin xác thực bị rò rỉ vào đào tạo"
+      },
+      {
+        "id": "B",
+        "text": "Embedding tự đảm bảo câu trả lời có trích dẫn"
+      },
+      {
+        "id": "C",
+        "text": "Top-k xếp theo câu trả lời trôi chảy thay vì độ liên quan"
+      },
+      {
+        "id": "D",
+        "text": "Tái sử dụng test set liên tục không gây bias"
+      }
+    ],
+    "correctAnswers": [
+      "Thông tin xác thực bị rò rỉ vào đào tạo"
+    ]
+  },
+  "C006": {
+    "topic": "Đường cơ sở",
+    "question": "Tại sao phải xây dựng đường cơ sở đơn giản trước tiên?",
+    "explanation": "Các mô hình phức tạp cần đánh bại một tham chiếu minh bạch.",
+    "solutionSteps": [
+      "Các mô hình phức tạp cần đánh bại một tham chiếu minh bạch."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Để thiết lập một so sánh hữu ích tối thiểu"
+      },
+      {
+        "id": "B",
+        "text": "Tăng threshold luôn làm số dự đoán dương tăng"
+      },
+      {
+        "id": "C",
+        "text": "Gradient descent đi cùng chiều gradient"
+      },
+      {
+        "id": "D",
+        "text": "Dùng test set để chọn hyperparameter"
+      }
+    ],
+    "correctAnswers": [
+      "Để thiết lập một so sánh hữu ích tối thiểu"
+    ]
+  },
+  "C001": {
+    "topic": "Các tính năng và nhãn",
+    "question": "Trong bộ phân loại thư rác, nhãn là gì?",
+    "explanation": "Nhãn là mục tiêu mà mô hình học cách dự đoán.",
+    "solutionSteps": [
+      "Nhãn là mục tiêu mà mô hình học cách dự đoán."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Thư rác hay không thư rác"
+      },
+      {
+        "id": "B",
+        "text": "Precision dùng FN ở mẫu số"
+      },
+      {
+        "id": "C",
+        "text": "Recall dùng FP ở mẫu số"
+      },
+      {
+        "id": "D",
+        "text": "Accuracy luôn phản ánh tốt lớp thiểu số"
+      }
+    ],
+    "correctAnswers": [
+      "Thư rác hay không thư rác"
+    ]
+  },
+  "C009": {
+    "topic": "Hồi quy logistic",
+    "question": "Hồi quy logistic thường xuất ra để phân loại nhị phân là gì?",
+    "explanation": "Sigmoid ánh xạ điểm tuyến tính thành xác suất.",
+    "solutionSteps": [
+      "Sigmoid ánh xạ điểm tuyến tính thành xác suất."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Ước tính xác suất"
+      },
+      {
+        "id": "B",
+        "text": "Precision dùng FN ở mẫu số"
+      },
+      {
+        "id": "C",
+        "text": "Recall dùng FP ở mẫu số"
+      },
+      {
+        "id": "D",
+        "text": "Accuracy luôn phản ánh tốt lớp thiểu số"
+      }
+    ],
+    "correctAnswers": [
+      "Ước tính xác suất"
+    ]
+  },
+  "C008": {
+    "topic": "Chia tỷ lệ tính năng",
+    "question": "Phương pháp nào nhạy cảm với thang đo tính năng?",
+    "explanation": "Tính toán khoảng cách thay đổi khi đơn vị tính năng khác nhau.",
+    "solutionSteps": [
+      "Tính toán khoảng cách thay đổi khi đơn vị tính năng khác nhau."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "K-hàng xóm gần nhất"
+      },
+      {
+        "id": "B",
+        "text": "Embedding tự đảm bảo câu trả lời có trích dẫn"
+      },
+      {
+        "id": "C",
+        "text": "Top-k xếp theo câu trả lời trôi chảy thay vì độ liên quan"
+      },
+      {
+        "id": "D",
+        "text": "Tái sử dụng test set liên tục không gây bias"
+      }
+    ],
+    "correctAnswers": [
+      "K-hàng xóm gần nhất"
+    ]
+  },
+  "C007": {
+    "topic": "Mất cân bằng lớp học",
+    "question": "Để phát hiện gian lận hiếm gặp, tại sao độ chính xác có thể gây nhầm lẫn?",
+    "explanation": "Lớp đa số thống trị độ chính xác.",
+    "solutionSteps": [
+      "Lớp đa số thống trị độ chính xác."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Một mô hình dự đoán tất cả các giao dịch an toàn có thể đạt điểm cao"
+      },
+      {
+        "id": "B",
+        "text": "Validation score cao chứng minh không có leakage"
+      },
+      {
+        "id": "C",
+        "text": "K-means cần nhãn mục tiêu"
+      },
+      {
+        "id": "D",
+        "text": "F1 là trung bình cộng của precision và recall"
+      }
+    ],
+    "correctAnswers": [
+      "Một mô hình dự đoán tất cả các giao dịch an toàn có thể đạt điểm cao"
+    ]
+  },
+  "C012": {
+    "topic": "Kiểm tra xác nhận tàu",
+    "question": "Sự phân chia nào nên được sử dụng để đánh giá khách quan cuối cùng?",
+    "explanation": "Giữ nó nguyên vẹn trong quá trình lựa chọn mô hình.",
+    "solutionSteps": [
+      "Giữ nó nguyên vẹn trong quá trình lựa chọn mô hình."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Bộ kiểm tra"
+      },
+      {
+        "id": "B",
+        "text": "Embedding tự đảm bảo câu trả lời có trích dẫn"
+      },
+      {
+        "id": "C",
+        "text": "Top-k xếp theo câu trả lời trôi chảy thay vì độ liên quan"
+      },
+      {
+        "id": "D",
+        "text": "Tái sử dụng test set liên tục không gây bias"
+      }
+    ],
+    "correctAnswers": [
+      "Bộ kiểm tra"
+    ]
+  },
+  "C010": {
+    "topic": "Cây quyết định",
+    "question": "Rủi ro cây quyết định phổ biến là gì?",
+    "explanation": "Cây không bị ràng buộc có thể ghi nhớ các mẫu huấn luyện.",
+    "solutionSteps": [
+      "Cây không bị ràng buộc có thể ghi nhớ các mẫu huấn luyện."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Trang bị quá mức các phần chia tách sâu, cụ thể"
+      },
+      {
+        "id": "B",
+        "text": "Tăng threshold luôn làm số dự đoán dương tăng"
+      },
+      {
+        "id": "C",
+        "text": "Gradient descent đi cùng chiều gradient"
+      },
+      {
+        "id": "D",
+        "text": "Dùng test set để chọn hyperparameter"
+      }
+    ],
+    "correctAnswers": [
+      "Trang bị quá mức các phần chia tách sâu, cụ thể"
+    ]
+  },
+  "C014": {
+    "topic": "thu hồi",
+    "question": "Với TP=40, FN=20, việc thu hồi là gì?",
+    "explanation": "Nhớ lại=40/(40+20).",
+    "solutionSteps": [
+      "Nhớ lại=40/(40+20)."
+    ]
+  },
+  "C015": {
+    "topic": "F1",
+    "question": "Để có độ chính xác .8 và thu hồi 2/3, F1 được làm tròn thành 2 số thập phân?",
+    "explanation": "2PR/(P+R)=.727...",
+    "solutionSteps": [
+      "2PR/(P+R)=.727..."
+    ]
+  },
+  "C016": {
+    "topic": "Ngưỡng",
+    "question": "Việc tăng ngưỡng phân loại nhị phân thường làm gì?",
+    "explanation": "Ít trường hợp vượt quá giới hạn nghiêm ngặt hơn.",
+    "solutionSteps": [
+      "Ít trường hợp vượt quá giới hạn nghiêm ngặt hơn."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Giảm các kết quả tích cực được dự đoán"
+      },
+      {
+        "id": "B",
+        "text": "Embedding tự đảm bảo câu trả lời có trích dẫn"
+      },
+      {
+        "id": "C",
+        "text": "Top-k xếp theo câu trả lời trôi chảy thay vì độ liên quan"
+      },
+      {
+        "id": "D",
+        "text": "Tái sử dụng test set liên tục không gây bias"
+      }
+    ],
+    "correctAnswers": [
+      "Giảm các kết quả tích cực được dự đoán"
+    ]
+  },
+  "C017": {
+    "topic": "Lựa chọn số liệu",
+    "question": "Đối với một xét nghiệm sàng lọc mà bệnh thiếu sót gây tốn kém, ưu tiên?",
+    "explanation": "Khả năng thu hồi cao giúp giảm âm tính giả.",
+    "solutionSteps": [
+      "Khả năng thu hồi cao giúp giảm âm tính giả."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "thu hồi"
+      },
+      {
+        "id": "B",
+        "text": "Precision dùng FN ở mẫu số"
+      },
+      {
+        "id": "C",
+        "text": "Recall dùng FP ở mẫu số"
+      },
+      {
+        "id": "D",
+        "text": "Accuracy luôn phản ánh tốt lớp thiểu số"
+      }
+    ],
+    "correctAnswers": [
+      "thu hồi"
+    ]
+  },
+  "C011": {
+    "topic": "K-nghĩa là",
+    "question": "Những gì phải được chọn trong K-mean tiêu chuẩn trước khi lắp?",
+    "explanation": "Thuật toán phân vùng dữ liệu thành một số cụm được chỉ định.",
+    "solutionSteps": [
+      "Thuật toán phân vùng dữ liệu thành một số cụm được chỉ định."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Số cụm k"
+      },
+      {
+        "id": "B",
+        "text": "Validation score cao chứng minh không có leakage"
+      },
+      {
+        "id": "C",
+        "text": "K-means cần nhãn mục tiêu"
+      },
+      {
+        "id": "D",
+        "text": "F1 là trung bình cộng của precision và recall"
+      }
+    ],
+    "correctAnswers": [
+      "Số cụm k"
+    ]
+  },
+  "C013": {
+    "topic": "Ma trận nhầm lẫn",
+    "question": "Với TP=40, FP=10, độ chính xác là bao nhiêu?",
+    "explanation": "Độ chính xác=40/(40+10).",
+    "solutionSteps": [
+      "Độ chính xác=40/(40+10)."
+    ]
+  },
+  "C018": {
+    "topic": "Mã số liệu",
+    "question": "Mã in ra là gì?",
+    "explanation": "Độ chính xác=0,8 và thu hồi≈0,667; giá trị trung bình hài hòa của chúng được làm tròn thành 0,73.",
+    "solutionSteps": [
+      "Độ chính xác=0,8 và thu hồi≈0,667; giá trị trung bình hài hòa của chúng được làm tròn thành 0,73."
+    ]
+  },
+  "C025": {
+    "topic": "ReLU",
+    "question": "ReLU(−3) là gì?",
+    "explanation": "ReLU(x)=max(0,x).",
+    "solutionSteps": [
+      "ReLU(x)=max(0,x)."
+    ]
+  },
+  "C019": {
+    "topic": "Độ chính xác",
+    "question": "TP=8,TN=80,FP=2,FN=10. Sự chính xác?",
+    "explanation": "(TP+TN)/100 = 88%.",
+    "solutionSteps": [
+      "(TP+TN)/100 = 88%."
+    ]
+  },
+  "C024": {
+    "topic": "Cập nhật cân nặng",
+    "question": "Với w=1, gradient=2, tốc độ học=.1, cập nhật w−=ηg cho kết quả gì?"
+  },
+  "C020": {
+    "topic": "Dương tính giả",
+    "question": "Trong ma trận nhầm lẫn, kết quả dương tính giả là gì?",
+    "explanation": "Dự đoán là tích cực trong khi nhãn thực sự là tiêu cực.",
+    "solutionSteps": [
+      "Dự đoán là tích cực trong khi nhãn thực sự là tiêu cực."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Trường hợp âm tính dự đoán dương tính"
+      },
+      {
+        "id": "B",
+        "text": "Embedding tự đảm bảo câu trả lời có trích dẫn"
+      },
+      {
+        "id": "C",
+        "text": "Top-k xếp theo câu trả lời trôi chảy thay vì độ liên quan"
+      },
+      {
+        "id": "D",
+        "text": "Tái sử dụng test set liên tục không gây bias"
+      }
+    ],
+    "correctAnswers": [
+      "Trường hợp âm tính dự đoán dương tính"
+    ]
+  },
+  "C021": {
+    "topic": "Độ dốc gốc",
+    "question": "Độ dốc cho biết điều gì?",
+    "explanation": "Độ dốc giảm dần di chuyển theo hướng độ dốc âm.",
+    "solutionSteps": [
+      "Độ dốc giảm dần di chuyển theo hướng độ dốc âm."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Hướng tăng cục bộ mạnh nhất"
+      },
+      {
+        "id": "B",
+        "text": "Precision dùng FN ở mẫu số"
+      },
+      {
+        "id": "C",
+        "text": "Recall dùng FP ở mẫu số"
+      },
+      {
+        "id": "D",
+        "text": "Accuracy luôn phản ánh tốt lớp thiểu số"
+      }
+    ],
+    "correctAnswers": [
+      "Hướng tăng cục bộ mạnh nhất"
+    ]
+  },
+  "C022": {
+    "topic": "Tỷ lệ học tập",
+    "question": "Tỷ lệ học tập quá lớn có thể gây ra điều gì?",
+    "explanation": "Các bước lớn có thể di chuyển ra khỏi mức tối thiểu.",
+    "solutionSteps": [
+      "Các bước lớn có thể di chuyển ra khỏi mức tối thiểu."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Cập nhật vượt quá hoặc phân kỳ"
+      },
+      {
+        "id": "B",
+        "text": "Tăng threshold luôn làm số dự đoán dương tăng"
+      },
+      {
+        "id": "C",
+        "text": "Gradient descent đi cùng chiều gradient"
+      },
+      {
+        "id": "D",
+        "text": "Dùng test set để chọn hyperparameter"
+      }
+    ],
+    "correctAnswers": [
+      "Cập nhật vượt quá hoặc phân kỳ"
+    ]
+  },
+  "C023": {
+    "topic": "Một nơ-ron",
+    "question": "Với y=w*x+b với w=2,x=3,b=1, y bằng?"
+  },
+  "C028": {
+    "topic": "RAG nối đất",
+    "question": "Điều gì làm giảm các xác nhận quyền sở hữu không được hỗ trợ trong câu trả lời RAG?",
+    "explanation": "Việc tạo liên kết nối đất với bằng chứng.",
+    "solutionSteps": [
+      "Việc tạo liên kết nối đất với bằng chứng."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Yêu cầu câu trả lời dựa trên các nguồn được truy xuất"
+      },
+      {
+        "id": "B",
+        "text": "Embedding tự đảm bảo câu trả lời có trích dẫn"
+      },
+      {
+        "id": "C",
+        "text": "Top-k xếp theo câu trả lời trôi chảy thay vì độ liên quan"
+      },
+      {
+        "id": "D",
+        "text": "Tái sử dụng test set liên tục không gây bias"
+      }
+    ],
+    "correctAnswers": [
+      "Yêu cầu câu trả lời dựa trên các nguồn được truy xuất"
+    ]
+  },
+  "C026": {
+    "topic": "Quy tắc dây chuyền",
+    "question": "Nếu dz/dx=6 và đạo hàm tổn thất dL/dz=2, dL/dx?"
+  },
+  "D002": {
+    "topic": "Ủy quyền",
+    "question": "Ủy quyền quyết định điều gì?",
+    "explanation": "Ủy quyền áp dụng quyền cho danh tính.",
+    "solutionSteps": [
+      "Ủy quyền áp dụng quyền cho danh tính."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Những gì người dùng được xác định có thể truy cập"
+      },
+      {
+        "id": "B",
+        "text": "Xóa log ngay để tránh lưu dữ liệu nhạy cảm"
+      },
+      {
+        "id": "C",
+        "text": "Coi pseudonymization đồng nghĩa không thể tái nhận dạng"
+      },
+      {
+        "id": "D",
+        "text": "Để mô hình tự quyết định mà không có kênh khiếu nại"
+      }
+    ],
+    "correctAnswers": [
+      "Những gì người dùng được xác định có thể truy cập"
+    ]
+  },
+  "C030": {
+    "topic": "Đánh giá RAG",
+    "question": "Cái nào đánh giá liệu các tài liệu liên quan đã được lấy ra chưa?",
+    "explanation": "Nó đo tỷ lệ các mục có liên quan có trong top k.",
+    "solutionSteps": [
+      "Nó đo tỷ lệ các mục có liên quan có trong top k."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Nhớ lại@k"
+      },
+      {
+        "id": "B",
+        "text": "Tăng threshold luôn làm số dự đoán dương tăng"
+      },
+      {
+        "id": "C",
+        "text": "Gradient descent đi cùng chiều gradient"
+      },
+      {
+        "id": "D",
+        "text": "Dùng test set để chọn hyperparameter"
+      }
+    ],
+    "correctAnswers": [
+      "Nhớ lại@k"
+    ]
+  },
+  "C027": {
+    "topic": "Truy xuất RAG",
+    "question": "Mục đích của việc truy xuất top-k là gì?",
+    "explanation": "Truy xuất cung cấp bối cảnh ứng viên cho thế hệ.",
+    "solutionSteps": [
+      "Truy xuất cung cấp bối cảnh ứng viên cho thế hệ."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Chọn k phần phù hợp nhất"
+      },
+      {
+        "id": "B",
+        "text": "Validation score cao chứng minh không có leakage"
+      },
+      {
+        "id": "C",
+        "text": "K-means cần nhãn mục tiêu"
+      },
+      {
+        "id": "D",
+        "text": "F1 là trung bình cộng của precision và recall"
+      }
+    ],
+    "correctAnswers": [
+      "Chọn k phần phù hợp nhất"
+    ]
+  },
+  "D003": {
+    "topic": "Đặc quyền ít nhất",
+    "question": "Một thực tập sinh chỉ cần quyền truy cập đọc vào một tập dữ liệu. Trợ cấp tốt nhất?",
+    "explanation": "Chỉ cấp phạm vi cần thiết cho nhiệm vụ.",
+    "solutionSteps": [
+      "Chỉ cấp phạm vi cần thiết cho nhiệm vụ."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Chỉ đọc quyền truy cập vào tập dữ liệu đó"
+      },
+      {
+        "id": "B",
+        "text": "Bỏ qua chênh lệch hiệu năng giữa các nhóm"
+      },
+      {
+        "id": "C",
+        "text": "Coi nội dung file tải lên là chỉ thị có thẩm quyền"
+      },
+      {
+        "id": "D",
+        "text": "Đợi đến sau phát hành mới báo sự cố"
+      }
+    ],
+    "correctAnswers": [
+      "Chỉ đọc quyền truy cập vào tập dữ liệu đó"
+    ]
+  },
+  "D001": {
+    "topic": "Xác thực",
+    "question": "Xác thực thiết lập những gì?",
+    "explanation": "Xác thực xác minh danh tính.",
+    "solutionSteps": [
+      "Xác thực xác minh danh tính."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Người dùng là ai"
+      },
+      {
+        "id": "B",
+        "text": "Cấp quyền rộng cho mọi người đã đăng nhập"
+      },
+      {
+        "id": "C",
+        "text": "Dùng lại dữ liệu cho mục đích mới mà không rà soát"
+      },
+      {
+        "id": "D",
+        "text": "Chia sẻ toàn bộ bản ghi để tiết kiệm thời gian"
+      }
+    ],
+    "correctAnswers": [
+      "Người dùng là ai"
+    ]
+  },
+  "D006": {
+    "topic": "PII",
+    "question": "Mục nào là dữ liệu cá nhân rõ ràng nhất?",
+    "explanation": "Nó trực tiếp xác định hoặc liên lạc với một người.",
+    "solutionSteps": [
+      "Nó trực tiếp xác định hoặc liên lạc với một người."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Địa chỉ email của một người được nêu tên"
+      },
+      {
+        "id": "B",
+        "text": "Để mô hình tự quyết định mà không có kênh khiếu nại"
+      },
+      {
+        "id": "C",
+        "text": "Bỏ qua chênh lệch hiệu năng giữa các nhóm"
+      },
+      {
+        "id": "D",
+        "text": "Coi nội dung file tải lên là chỉ thị có thẩm quyền"
+      }
+    ],
+    "correctAnswers": [
+      "Địa chỉ email của một người được nêu tên"
+    ]
+  },
+  "D004": {
+    "topic": "Giảm thiểu dữ liệu",
+    "question": "Một báo cáo cần có độ tuổi chứ không phải ngày sinh. Thực hành tốt nhất?",
+    "explanation": "Chỉ thu thập dữ liệu cần thiết cho mục đích đã nêu.",
+    "solutionSteps": [
+      "Chỉ thu thập dữ liệu cần thiết cho mục đích đã nêu."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Sử dụng nhóm tuổi và bỏ qua ngày sinh"
+      },
+      {
+        "id": "B",
+        "text": "Thu thập mọi trường dữ liệu phòng khi cần"
+      },
+      {
+        "id": "C",
+        "text": "Cấp quyền rộng cho mọi người đã đăng nhập"
+      },
+      {
+        "id": "D",
+        "text": "Dùng lại dữ liệu cho mục đích mới mà không rà soát"
+      }
+    ],
+    "correctAnswers": [
+      "Sử dụng nhóm tuổi và bỏ qua ngày sinh"
+    ]
+  },
+  "D010": {
+    "topic": "Nhật ký kiểm tra",
+    "question": "Tại sao phải đăng nhập quyền truy cập dữ liệu nhạy cảm?",
+    "explanation": "Nhật ký thiết lập ai đã truy cập cái gì và khi nào.",
+    "solutionSteps": [
+      "Nhật ký thiết lập ai đã truy cập cái gì và khi nào."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Để hỗ trợ trách nhiệm giải trình và điều tra sự cố"
+      },
+      {
+        "id": "B",
+        "text": "Coi nội dung file tải lên là chỉ thị có thẩm quyền"
+      },
+      {
+        "id": "C",
+        "text": "Đợi đến sau phát hành mới báo sự cố"
+      },
+      {
+        "id": "D",
+        "text": "Thu thập mọi trường dữ liệu phòng khi cần"
+      }
+    ],
+    "correctAnswers": [
+      "Để hỗ trợ trách nhiệm giải trình và điều tra sự cố"
+    ]
+  },
+  "D009": {
+    "topic": "giữ lại",
+    "question": "Khi nào nên xóa dữ liệu nhận dạng?",
+    "explanation": "Việc lưu giữ nên được giới hạn và ghi lại.",
+    "solutionSteps": [
+      "Việc lưu giữ nên được giới hạn và ghi lại."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Khi thời hạn hoặc mục đích lưu giữ được phê duyệt kết thúc"
+      },
+      {
+        "id": "B",
+        "text": "Coi pseudonymization đồng nghĩa không thể tái nhận dạng"
+      },
+      {
+        "id": "C",
+        "text": "Để mô hình tự quyết định mà không có kênh khiếu nại"
+      },
+      {
+        "id": "D",
+        "text": "Bỏ qua chênh lệch hiệu năng giữa các nhóm"
+      }
+    ],
+    "correctAnswers": [
+      "Khi thời hạn hoặc mục đích lưu giữ được phê duyệt kết thúc"
+    ]
+  },
+  "D005": {
+    "topic": "Giới hạn mục đích",
+    "question": "Một tập dữ liệu được thu thập để hỗ trợ sẽ được đề xuất cho quảng cáo. Điều gì nên xảy ra đầu tiên?",
+    "explanation": "Việc sử dụng thứ cấp cần có mục đích hợp lệ và cơ sở minh bạch.",
+    "solutionSteps": [
+      "Việc sử dụng thứ cấp cần có mục đích hợp lệ và cơ sở minh bạch."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Đánh giá mục đích, sự đồng ý và chính sách trước khi sử dụng lại"
+      },
+      {
+        "id": "B",
+        "text": "Chia sẻ toàn bộ bản ghi để tiết kiệm thời gian"
+      },
+      {
+        "id": "C",
+        "text": "Xóa log ngay để tránh lưu dữ liệu nhạy cảm"
+      },
+      {
+        "id": "D",
+        "text": "Coi pseudonymization đồng nghĩa không thể tái nhận dạng"
+      }
+    ],
+    "correctAnswers": [
+      "Đánh giá mục đích, sự đồng ý và chính sách trước khi sử dụng lại"
+    ]
+  },
+  "D007": {
+    "topic": "Biệt danh",
+    "question": "Bút danh làm gì?",
+    "explanation": "Dữ liệu vẫn có thể được liên kết với thông tin bổ sung.",
+    "solutionSteps": [
+      "Dữ liệu vẫn có thể được liên kết với thông tin bổ sung."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Thay thế số nhận dạng trong khi tồn tại khóa liên kết lại"
+      },
+      {
+        "id": "B",
+        "text": "Đợi đến sau phát hành mới báo sự cố"
+      },
+      {
+        "id": "C",
+        "text": "Thu thập mọi trường dữ liệu phòng khi cần"
+      },
+      {
+        "id": "D",
+        "text": "Cấp quyền rộng cho mọi người đã đăng nhập"
+      }
+    ],
+    "correctAnswers": [
+      "Thay thế số nhận dạng trong khi tồn tại khóa liên kết lại"
+    ]
+  },
+  "D008": {
+    "topic": "Ẩn danh",
+    "question": "Điều gì phân biệt ẩn danh hiệu quả?",
+    "explanation": "Không giống như việc đặt bút danh, việc liên kết sẽ không khả thi.",
+    "solutionSteps": [
+      "Không giống như việc đặt bút danh, việc liên kết sẽ không khả thi."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Việc xác định lại là không thể hợp lý"
+      },
+      {
+        "id": "B",
+        "text": "Dùng lại dữ liệu cho mục đích mới mà không rà soát"
+      },
+      {
+        "id": "C",
+        "text": "Chia sẻ toàn bộ bản ghi để tiết kiệm thời gian"
+      },
+      {
+        "id": "D",
+        "text": "Xóa log ngay để tránh lưu dữ liệu nhạy cảm"
+      }
+    ],
+    "correctAnswers": [
+      "Việc xác định lại là không thể hợp lý"
+    ]
+  },
+  "C029": {
+    "topic": "tiêm nhắc nhở",
+    "question": "Một tài liệu được truy xuất có nội dung \"bỏ qua các quy tắc hệ thống\". Ứng dụng nên làm gì?",
+    "explanation": "Văn bản được truy xuất là dữ liệu và không được ghi đè chính sách đáng tin cậy.",
+    "solutionSteps": [
+      "Văn bản được truy xuất là dữ liệu và không được ghi đè chính sách đáng tin cậy."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Hãy coi đó là nội dung không đáng tin cậy, không phải hướng dẫn"
+      },
+      {
+        "id": "B",
+        "text": "Precision dùng FN ở mẫu số"
+      },
+      {
+        "id": "C",
+        "text": "Recall dùng FP ở mẫu số"
+      },
+      {
+        "id": "D",
+        "text": "Accuracy luôn phản ánh tốt lớp thiểu số"
+      }
+    ],
+    "correctAnswers": [
+      "Hãy coi đó là nội dung không đáng tin cậy, không phải hướng dẫn"
+    ]
+  },
+  "D013": {
+    "topic": "Khả năng giải thích",
+    "question": "Tại sao phải cung cấp lý do rõ ràng cho một quyết định tự động?",
+    "explanation": "Khả năng giải thích hỗ trợ tính minh bạch và khả năng tranh cãi.",
+    "solutionSteps": [
+      "Khả năng giải thích hỗ trợ tính minh bạch và khả năng tranh cãi."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Để những người bị ảnh hưởng có thể hiểu và thách thức nó"
+      },
+      {
+        "id": "B",
+        "text": "Bỏ qua chênh lệch hiệu năng giữa các nhóm"
+      },
+      {
+        "id": "C",
+        "text": "Coi nội dung file tải lên là chỉ thị có thẩm quyền"
+      },
+      {
+        "id": "D",
+        "text": "Đợi đến sau phát hành mới báo sự cố"
+      }
+    ],
+    "correctAnswers": [
+      "Để những người bị ảnh hưởng có thể hiểu và thách thức nó"
+    ]
+  },
+  "D012": {
+    "topic": "Sự công bằng",
+    "question": "Một mô hình hoạt động kém hơn đối với một nhóm con. Bước đầu tiên?",
+    "explanation": "Bằng chứng nên hướng dẫn giảm thiểu.",
+    "solutionSteps": [
+      "Bằng chứng nên hướng dẫn giảm thiểu."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Đo lường khoảng cách và điều tra dữ liệu cũng như nguyên nhân của quy trình"
+      },
+      {
+        "id": "B",
+        "text": "Xóa log ngay để tránh lưu dữ liệu nhạy cảm"
+      },
+      {
+        "id": "C",
+        "text": "Coi pseudonymization đồng nghĩa không thể tái nhận dạng"
+      },
+      {
+        "id": "D",
+        "text": "Để mô hình tự quyết định mà không có kênh khiếu nại"
+      }
+    ],
+    "correctAnswers": [
+      "Đo lường khoảng cách và điều tra dữ liệu cũng như nguyên nhân của quy trình"
+    ]
+  },
+  "D015": {
+    "topic": "Phản ứng sự cố",
+    "question": "Một tập dữ liệu riêng tư đã bị lộ. Ưu tiên hoạt động đầu tiên là gì?",
+    "explanation": "Hạn chế tiếp xúc liên tục, sau đó điều tra bằng cách sử dụng bằng chứng được bảo quản.",
+    "solutionSteps": [
+      "Hạn chế tiếp xúc liên tục, sau đó điều tra bằng cách sử dụng bằng chứng được bảo quản."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Chứa quyền truy cập trong khi bảo quản bằng chứng"
+      },
+      {
+        "id": "B",
+        "text": "Chia sẻ toàn bộ bản ghi để tiết kiệm thời gian"
+      },
+      {
+        "id": "C",
+        "text": "Xóa log ngay để tránh lưu dữ liệu nhạy cảm"
+      },
+      {
+        "id": "D",
+        "text": "Coi pseudonymization đồng nghĩa không thể tái nhận dạng"
+      }
+    ],
+    "correctAnswers": [
+      "Chứa quyền truy cập trong khi bảo quản bằng chứng"
+    ]
+  },
+  "D020": {
+    "topic": "Kiểm soát quyền riêng tư",
+    "question": "Hai thực tiễn nào là nền tảng riêng biệt của việc truy cập dữ liệu có trách nhiệm? Chọn tất cả những gì áp dụng.",
+    "explanation": "Xác thực trả lời ai đang thực hiện yêu cầu; ủy quyền xác định những gì họ có thể truy cập.",
+    "commonMistake": "Đừng coi thông tin đăng nhập hợp lệ là bằng chứng cho thấy mọi tài nguyên đều được ủy quyền.",
+    "solutionSteps": [
+      "Trước tiên hãy xác minh danh tính.",
+      "Kiểm tra quyền của danh tính đối với tài nguyên được yêu cầu."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Xác thực xác minh danh tính"
+      },
+      {
+        "id": "B",
+        "text": "Ủy quyền đặt hành động được phép"
+      },
+      {
+        "id": "C",
+        "text": "Liên kết công khai loại bỏ rủi ro truy cập"
+      },
+      {
+        "id": "D",
+        "text": "Thu thập mọi thuộc tính có sẵn"
+      }
+    ]
+  },
+  "D011": {
+    "topic": "Đánh giá của con người",
+    "question": "Một mô hình từ chối các đơn xin trợ cấp mà không có khiếu nại. Cải thiện tốt nhất?",
+    "explanation": "Các quyết định có tác động cao cần có sự giám sát và khắc phục có ý nghĩa.",
+    "solutionSteps": [
+      "Các quyết định có tác động cao cần có sự giám sát và khắc phục có ý nghĩa."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Cung cấp đánh giá đủ điều kiện và quy trình cuộc thi"
+      },
+      {
+        "id": "B",
+        "text": "Cấp quyền rộng cho mọi người đã đăng nhập"
+      },
+      {
+        "id": "C",
+        "text": "Dùng lại dữ liệu cho mục đích mới mà không rà soát"
+      },
+      {
+        "id": "D",
+        "text": "Chia sẻ toàn bộ bản ghi để tiết kiệm thời gian"
+      }
+    ],
+    "correctAnswers": [
+      "Cung cấp đánh giá đủ điều kiện và quy trình cuộc thi"
+    ]
+  },
+  "D014": {
+    "topic": "Chia sẻ an toàn",
+    "question": "Một đồng đội yêu cầu hồ sơ khách hàng trong cuộc trò chuyện công khai. Phản ứng?",
+    "explanation": "Trò chuyện công khai sẽ tiết lộ hồ sơ cho người xem trái phép.",
+    "solutionSteps": [
+      "Trò chuyện công khai sẽ tiết lộ hồ sơ cho người xem trái phép."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Sử dụng kênh hạn chế đã được phê duyệt và dữ liệu cần thiết tối thiểu"
+      },
+      {
+        "id": "B",
+        "text": "Thu thập mọi trường dữ liệu phòng khi cần"
+      },
+      {
+        "id": "C",
+        "text": "Cấp quyền rộng cho mọi người đã đăng nhập"
+      },
+      {
+        "id": "D",
+        "text": "Dùng lại dữ liệu cho mục đích mới mà không rà soát"
+      }
+    ],
+    "correctAnswers": [
+      "Sử dụng kênh hạn chế đã được phê duyệt và dữ liệu cần thiết tối thiểu"
+    ]
+  },
+  "D017": {
+    "topic": "Leo thang",
+    "question": "Một cấp cao đề xuất bỏ qua việc xác nhận một mô hình có tác động cao. Phản ứng tốt nhất?",
+    "explanation": "Một giải pháp thay thế thực tế cộng với bằng chứng ủng hộ việc leo thang có trách nhiệm.",
+    "solutionSteps": [
+      "Một giải pháp thay thế thực tế cộng với bằng chứng ủng hộ việc leo thang có trách nhiệm."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Hiển thị bằng chứng rủi ro, đề xuất xác nhận tập trung và báo cáo nếu chưa được giải quyết"
+      },
+      {
+        "id": "B",
+        "text": "Đợi đến sau phát hành mới báo sự cố"
+      },
+      {
+        "id": "C",
+        "text": "Thu thập mọi trường dữ liệu phòng khi cần"
+      },
+      {
+        "id": "D",
+        "text": "Cấp quyền rộng cho mọi người đã đăng nhập"
+      }
+    ],
+    "correctAnswers": [
+      "Hiển thị bằng chứng rủi ro, đề xuất xác nhận tập trung và báo cáo nếu chưa được giải quyết"
+    ]
+  },
+  "D016": {
+    "topic": "Bằng chứng vụ việc",
+    "question": "Tại sao phải lưu giữ nhật ký trước khi biện pháp khắc phục xóa chúng?",
+    "explanation": "Bằng chứng hỗ trợ đánh giá và thông báo chính xác.",
+    "solutionSteps": [
+      "Bằng chứng hỗ trợ đánh giá và thông báo chính xác."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Chúng cần thiết để thiết lập phạm vi và dòng thời gian"
+      },
+      {
+        "id": "B",
+        "text": "Để mô hình tự quyết định mà không có kênh khiếu nại"
+      },
+      {
+        "id": "C",
+        "text": "Bỏ qua chênh lệch hiệu năng giữa các nhóm"
+      },
+      {
+        "id": "D",
+        "text": "Coi nội dung file tải lên là chỉ thị có thẩm quyền"
+      }
+    ],
+    "correctAnswers": [
+      "Chúng cần thiết để thiết lập phạm vi và dòng thời gian"
+    ]
+  },
+  "D019": {
+    "topic": "Bảo vệ tiêm kịp thời",
+    "question": "Trợ lý nên xử lý các hướng dẫn tìm thấy trong tệp đã tải lên như thế nào?",
+    "explanation": "Chỉ riêng từ ngữ nhắc nhở không phải là ranh giới ủy quyền.",
+    "solutionSteps": [
+      "Chỉ riêng từ ngữ nhắc nhở không phải là ranh giới ủy quyền."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Giữ nội dung tệp không đáng tin cậy và thực thi các quy tắc truy cập bên ngoài lời nhắc"
+      },
+      {
+        "id": "B",
+        "text": "Coi pseudonymization đồng nghĩa không thể tái nhận dạng"
+      },
+      {
+        "id": "C",
+        "text": "Để mô hình tự quyết định mà không có kênh khiếu nại"
+      },
+      {
+        "id": "D",
+        "text": "Bỏ qua chênh lệch hiệu năng giữa các nhóm"
+      }
+    ],
+    "correctAnswers": [
+      "Giữ nội dung tệp không đáng tin cậy và thực thi các quy tắc truy cập bên ngoài lời nhắc"
+    ]
+  },
+  "E004": {
+    "topic": "Tự luận AI có trách nhiệm"
+  },
+  "D018": {
+    "topic": "Đánh đổi thời hạn",
+    "question": "Thời hạn xung đột với vấn đề an toàn chưa được giải quyết. Kỹ sư nên làm gì?",
+    "explanation": "Truyền đạt rủi ro và các lựa chọn thay thế khả thi.",
+    "solutionSteps": [
+      "Truyền đạt rủi ro và các lựa chọn thay thế khả thi."
+    ],
+    "options": [
+      {
+        "id": "A",
+        "text": "Nêu rõ bằng chứng và tác động; yêu cầu phát hành hoặc trì hoãn theo giai đoạn an toàn"
+      },
+      {
+        "id": "B",
+        "text": "Dùng lại dữ liệu cho mục đích mới mà không rà soát"
+      },
+      {
+        "id": "C",
+        "text": "Chia sẻ toàn bộ bản ghi để tiết kiệm thời gian"
+      },
+      {
+        "id": "D",
+        "text": "Xóa log ngay để tránh lưu dữ liệu nhạy cảm"
+      }
+    ],
+    "correctAnswers": [
+      "Nêu rõ bằng chứng và tác động; yêu cầu phát hành hoặc trì hoãn theo giai đoạn an toàn"
+    ]
+  },
+  "E002": {
+    "topic": "Tự luận Machine Learning"
+  },
+  "E001": {
+    "topic": "Tự luận Python"
+  },
+  "E003": {
+    "topic": "Tự luận RAG"
+  },
+  "E006": {
+    "topic": "Viết mã Python"
+  },
+  "E007": {
+    "topic": "Viết mã Python"
+  },
+  "E005": {
+    "topic": "Tự luận Privacy"
+  }
+}
